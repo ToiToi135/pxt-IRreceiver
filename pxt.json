@@ -16,5 +16,6 @@
         "TransmitterIR.cpp",
         "TransmitterIR.h"
     ],
-    "public": true
+    "public": true,
+    "preferredEditor": "tsprj"
 }

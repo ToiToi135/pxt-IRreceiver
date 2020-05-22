@@ -1,18 +1,20 @@
 {
-    "name": "pxt-irreceiver",
-    "version": "0.0.0",
-    "description": "",
+    "name": "KEY17_IR",
+    "version": "1.0.0",
+    "description": "Extension for KEY-17 PnP IR receiver module",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
-        "README.md",
-        "main.ts"
+        "shims.d.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": false,
-    "additionalFilePaths": []
+    "public": true
 }
